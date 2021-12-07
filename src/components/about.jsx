@@ -14,22 +14,23 @@ class About extends React.Component {
         { id: "ReactJS_skill", content: "ReactJS", porcentage: "80%", value: "80" },
         { id: "NodeJs_skill", content: "NodeJS", porcentage: "70%", value: "70" },
         { id: "SQL_skill", content: "SQL", porcentage: "70%", value: "70" },
+        { id: "English_skill", content: "Intermediate English B2", porcentage: "100%", value: "100" },
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I am interested in improving my skills and learning new technologies to develop good-looking and high-quality  software; I am able yo work in a hard-working environment and provide a high-quality work. What I really love is working on web pages and find new ways to design and make them functional."
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I'm proud to say that I studied my major at UCR, although my first experience on superior education was at UNA, where I studied English for one year, but my real dream was studying software development and technologies."
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I have experience on developing applications on JavaScript, ReactJs, C# and many more languages and technologies. When I started my higher education in 2016, I learned a new language which was English, it has been my principal language to improve since then. Nevertheless I would like to learn many more languages and being able to communicate with many more people."
         }
       ]
     };
