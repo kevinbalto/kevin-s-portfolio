@@ -6,20 +6,14 @@ class About extends React.Component {
     this.state = {
       skills: [
         { id: "Java_skill", content: "Java", porcentage: "70%", value: "70" },
-        { id: "HTML and CSS_skill", content: "HTML and CSS", porcentage: "75%", value: "75" },
-        {
-          id: "C#_NET_Framework_skill",
-          content: "C# .NET Framework",
-          porcentage: "75%",
-          value: "75"
-        },
-        { id: "PHP_Laravel_skill", content: "PHP and Laravel", porcentage: "60%", value: "60" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "75%",
-          value: "75"
-        },
+        { id: "HTML_skill", content: "HTML", porcentage: "75%", value: "75" },
+        { id: "CSS_skill", content: "CSS", porcentage: "75%", value: "75" },
+        { id: "C#_NET_Framework_skill", content: "C# .NET Framework", porcentage: "80%", value: "80" },
+        { id: "PHP_skill", content: "PHP", porcentage: "60%", value: "60" },
+        { id: "Laravel_skill", content: "Laravel", porcentage: "60%", value: "60" },
+        { id: "ReactJS_skill", content: "ReactJS", porcentage: "80%", value: "80" },
+        { id: "NodeJs_skill", content: "NodeJS", porcentage: "70%", value: "70" },
+        { id: "SQL_skill", content: "SQL", porcentage: "70%", value: "70" },
       ],
       about_me: [
         {

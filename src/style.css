@@ -1002,3 +1002,23 @@ BUTTON
     bottom: 15px;
   }
 }
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container div{
+  margin: 50px;
+  width: 657px;
+}
+
+@media (max-width:600px){
+  .flex-container{
+    flex-direction: column;
+  }
+
+  .flex-container div{
+    flex-basis: 100px;
+  }
+}
