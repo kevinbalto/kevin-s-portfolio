@@ -30,7 +30,7 @@ class About extends React.Component {
         {
           id: "third-p-about",
           content:
-            "I have experience on developing applications on JavaScript, ReactJs, C# and many more languages and technologies. When I started my higher education in 2016, I learned a new language which was English, it has been my principal language to improve since then. Nevertheless I would like to learn many more languages and being able to communicate with many more people."
+            "I have experience on developing applications on JavaScript, ReactJs, C# and many more languages and technologies. When I started my higher education in 2016, I learned English as a new language and I keep practicing to improve it, it has been my second language since then. Nevertheless I would like to learn many more languages and being able to communicate with many more people."
         }
       ]
     };
