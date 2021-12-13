@@ -14,6 +14,9 @@ import stock9 from "../img/mns.png";
 import stock10 from "../img/mns1.png";
 import stock11 from "../img/mns2.png";
 import stock12 from "../img/mns3.png";
+import stock13 from "../img/cms1.JPG";
+import stock14 from "../img/crm2.JPG";
+import stock15 from "../img/crm3.JPG";
 import { Icon } from '@iconify/react';
 import addCircleSharp from '@iconify/icons-ion/add-circle-sharp';
 import githubFill from '@iconify/icons-akar-icons/github-fill';
@@ -229,6 +232,56 @@ const Portfolio = () => {
                 </a>
                 <a
                   href={stock12}
+                  data-lightbox="gallery-mf"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+              </div>
+            </div>
+            {/* CMS React-Tailwind-Formik */}
+            <div className="col-md-4">
+              <div className="work-box">
+                  <div className="work-img">
+                    <img src={stock13} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">
+                          CRM-REACT-TAILWINDCCS-FORMIK</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            CRM made to test the following technologies: React.js, TailwindCSS and Formik
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <a href={stock13} data-lightbox="gallery-mf">
+                            <Icon icon={addCircleSharp} color="#6d6d6d" />
+                          </a>
+                        </div>
+                      </div>
+                      <div className="col-sm-3">
+                        <div className="w-like">
+                          <a href="https://github.com/kevinbalto/CRM-REACT-TAILWINDCCS-FORMIK">
+                            <Icon icon={githubFill} color="black" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                <a
+                  href={stock14}
+                  data-lightbox="gallery-mf"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={stock15}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >

@@ -20,7 +20,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "I am interested in improving my skills and learning new technologies to develop good-looking and high-quality  software; I am able yo work in a hard-working environment and provide a high-quality work. What I really love is working on web pages and find new ways to design and make them functional."
+            "I am interested on improving my skills and learning new technologies to develop good-looking and high-quality  software; I am able yo work in a hard-working environment and provide a high-quality work. What I really love is working on web pages and find new ways to design and make them functional."
         },
         {
           id: "second-p-about",
