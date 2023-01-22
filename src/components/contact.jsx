@@ -117,10 +117,9 @@ const Contact = () => {
                     </div>
                     <div className="more-info">
                       <p className="lead">
-                        If you want to talk about a work offer, a personal project or a collaboration, 
-                        I would like hear more about it.
+                        If you want to talk about a work offer, a personal project, or a collaboration, I would like to hear more about it.
                         <br/>
-                        Just sent me a message or contact me on my social networks, you can find them bellow.
+                        Just sent me a message or contact me through my social networks, you can find them below.
                       </p>
                     </div>
                     <div className="socials">
@@ -173,7 +172,7 @@ const Contact = () => {
                     </div>
                     <div className="more-info">
                       <p className="lead">
-                        Phone number: +506 8663-5666
+                        Phone number: +506 6481-0246
                         <br/>
                         Email: kbaltodanoch@hotmail.es
                       </p>

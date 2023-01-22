@@ -97,7 +97,7 @@ class About extends React.Component {
                           </p>
                         );
                       })}
-                      <div className="ml-5">
+                      <div>
                         <img src={photo} alt="" className="img-fluid" width="500" height="auto"/>
                       </div>
                     </div>
