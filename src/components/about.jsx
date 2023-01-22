@@ -48,7 +48,7 @@ class About extends React.Component {
               <div className="box-shadow-full">
                 <div className="row">
                   <div className="col-md-6">
-                    <h5 className="title-left">Kowledge</h5>
+                    <h5 className="title-left">Knowledge</h5>
                     <img src={knowledge} alt="" className="img-fluid mt-4" width="500" height="auto"/>
                     <div className="mt-5 text-center">
                       <button className={`btn btn-lg btn-info`}>
