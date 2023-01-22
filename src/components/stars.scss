@@ -61,6 +61,16 @@
 
   .background {
     overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background-color: #1B2735;
+    background-image: url("../img/developer-inspiring-stories.jpg");
     height: 100vh;
-}
+  }
+
+  .intro-background {
+    background-color: #1B2735;
+  }
+
+  .box {
+    width: 100%;
+    margin-top: 200px;
+  }

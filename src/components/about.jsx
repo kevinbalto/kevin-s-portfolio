@@ -1,4 +1,5 @@
 import React from "react";
+import photo from "../img/photo.png";
 
 class About extends React.Component {
   constructor() {
@@ -20,8 +21,8 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "I am interested on improving my skills and learning new technologies to develop good-looking and high-quality  software; I am able yo work in a hard-working environment and provide a high-quality work. What I really love is working on web pages and find new ways to design and make them functional."
-        },
+            "Hi, I'm Kevin Baltodano, I'm a full stack developer with 1 year of experience, interested in improving my skills and learning new technologies to develop high-quality software. I have experience developing frontend and backend software with many different frameworks, like Angular ts, React js and Nest js."
+        }/* ,
         {
           id: "second-p-about",
           content:
@@ -31,7 +32,7 @@ class About extends React.Component {
           id: "third-p-about",
           content:
             "I have experience on developing applications on JavaScript, ReactJs, C# and many more languages and technologies. When I started my higher education in 2016, I learned English as a new language and I keep practicing to improve it, it has been my second language since then. Nevertheless I would like to learn many more languages and being able to communicate with many more people."
-        }
+        } */
       ]
     };
   }
@@ -96,6 +97,9 @@ class About extends React.Component {
                           </p>
                         );
                       })}
+                      <div className="ml-5">
+                        <img src={photo} alt="" className="img-fluid" width="500" height="auto"/>
+                      </div>
                     </div>
                   </div>
                 </div>

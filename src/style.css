@@ -451,7 +451,7 @@ NAVBAR
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: rgb(16, 85, 233);
+  background-color: white;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
