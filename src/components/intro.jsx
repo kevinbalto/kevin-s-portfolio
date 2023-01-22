@@ -34,7 +34,7 @@ const Intro = () => {
                 href="#work"
                 role="button"
               >
-                Let's see my projects
+                Let's see my work
               </a>
             </p>
           </div>

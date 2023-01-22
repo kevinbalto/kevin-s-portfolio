@@ -1,5 +1,7 @@
 import React from "react";
 import photo from "../img/photo.png";
+import knowledge from "../img/knowledge.png";
+import resume from "../documents/Resume.pdf";
 
 class About extends React.Component {
   constructor() {
@@ -21,7 +23,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Hi, I'm Kevin Baltodano, I'm a full stack developer with 1 year of experience, interested in improving my skills and learning new technologies to develop high-quality software. I have experience developing frontend and backend software with many different frameworks, like Angular ts, React js and Nest js."
+            "Hi, I'm Kevin Baltodano, I'm a full-stack developer with one year of experience, interested in improving my skills and learning new technologies to develop high-quality software. I have experience developing frontend and backend software with many different frameworks, like Angular ts, React js and Nest js."
         }/* ,
         {
           id: "second-p-about",
@@ -46,7 +48,19 @@ class About extends React.Component {
               <div className="box-shadow-full">
                 <div className="row">
                   <div className="col-md-6">
-                    <div className="row">
+                    <h5 className="title-left">Kowledge</h5>
+                    <img src={knowledge} alt="" className="img-fluid mt-4" width="500" height="auto"/>
+                    <div className="mt-5 text-center">
+                      <button className={`btn btn-lg btn-info`}>
+                        <a className="text-light" href={resume} target="_blank" rel="noopener noreferrer" download="kevin_baltodano_cv.pdf"> 
+                          Download CV   
+                          <svg className="ml-1" xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none">
+                            <path d="M16 11L12 15M12 15L8 11M12 15V3M21 15V17C21 18.1046 20.1046 19 19 19H5C3.89543 19 3 18.1046 3 17V15" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                          </svg>
+                        </a>
+                      </button>
+                    </div>
+                    {/* <div className="row">
                       <div
                         className="col-sm-6 col-md-5"
                         style={{ margin: "0 auto" }}
@@ -83,7 +97,7 @@ class About extends React.Component {
                           </React.Fragment>
                         );
                       })}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">

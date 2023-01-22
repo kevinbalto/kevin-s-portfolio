@@ -29,9 +29,9 @@ const Portfolio = () => {
             <div className="col-sm-12">
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
-                <p className="subtitle-a">
-                  Here are some projects, I would like show to you!
-                </p>
+                {/* <p className="subtitle-a">
+                  Here are some projects, I would like to show to you!
+                </p> */}
                 <div className="line-mf"></div>
               </div>
             </div>
